@@ -68,7 +68,7 @@ The <code>toHtml</code> method returns the Element you have built and not an ins
     container.appendChild(div.toHtml())
 ```
 
-There is a built in helper for select boxes.  You can use teh above methods to build the select box and built all the child options but that gets a little long.  So the shortcut for select boxes and options is:
+There is a built in helper for select boxes.  You can use the above methods to build the select box and built all the child options but that gets a little long.  So the shortcut for select boxes and options is:
 
 ```js
 var select = new domCreator({

@@ -4,10 +4,10 @@
  * 
  * @keys
  *  - type      required    {string}
- *  - id        required    {string}
- *  - style     required    {string}
- *  - value     required    {string}
- *  - innerHtml required    {string}
+ *  - id        optional    {string}
+ *  - style     optional    {string}
+ *  - value     optional    {string}
+ *  - innerHtml optional    {string}
  *  - options   optional    {array|object}
  *      @keys
  *       - value    optional    {string}
@@ -87,10 +87,10 @@ domCreator.prototype.addAttributeToElement = function(type, value){
  * 
  * keys
  *  - type      required    {string}
- *  - id        required    {string}
- *  - style     required    {string}
- *  - value     required    {string}
- *  - innerHtml required    {string}
+ *  - id        optional    {string}
+ *  - style     optional    {string}
+ *  - value     optional    {string}
+ *  - innerHtml optional    {string}
  *  - options   optional    {array|object}
  *      keys
  *       - value    optional    {string}
